@@ -10,6 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { toggleTheme } from "./utils/themeSlice";
 import AnimatedCursor from "react-animated-cursor";
+import NoMatchRoute from "./components/NoMatchRoute";
 
 function App() {
   const selector = useSelector((store) => store.theme.darkMode);
@@ -58,6 +59,10 @@ function App() {
         {
           path: "/contact",
           element: <Contact />,
+        },
+        {
+          path: "*",
+          element: <NoMatchRoute />,
         },
       ],
     },
