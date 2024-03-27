@@ -11,7 +11,7 @@ const ProjectCard = ({ projectDetails, display }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="text-[20px] mt-4 font-semibold flex items-center px-2 rounded-lg bg-gradient-to-r from-cyan-500 to-teal-500 cursor-pointer text-white">
+            <button className="text-[20px] mt-4 font-semibold flex items-center px-2 rounded-lg border-2 border-transparent hover:border-cyan-500 bg-cyan-500 text-white hover:bg-transparent hover:text-cyan-500">
               Link
             </button>
           </a>

@@ -38,7 +38,7 @@ export const PROJECT_DETAILS = [
 ];
 
 export const ABOUT_ME =
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque temporibus magni sequi deserunt totam voluptas, alias quas sapiente facere quasi vitae facilis maxime ad mollitia veritatis aut enim! Id, rem repudiandae, officiis eligendi saepe vero quas incidunt similique minus hic odio culpa architecto nostrum in sapiente aliquid repellendus illum voluptatum, facere assumenda. Molestias rem dignissimos neque consequatur, numquam quam nobis! Quia porro nobis dolorem qui inventore. Ipsum blanditiis at ratione rem sunt dolorum.";
+  "Creative, self-starting, and ambitious Front-End Developer with 2 years of experience, in application development, for both Responsive web app and desktop applications in fast-paced, collaborative environments. Highly Experienced in HTML/CSS/JavaScript/Electron.js and working knowledge of JQuery, React, Redux and node.js. Well-versed in Scrum and Agile.";
 
 export const CONTACT_DETAILS = {
   phone: 8001454476,

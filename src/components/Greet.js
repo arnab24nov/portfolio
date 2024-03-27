@@ -36,9 +36,9 @@ const Greet = () => {
             setRole((prevRole) => prevRole.slice(0, prevRole.length - 1));
             index--;
           }
-        }, 200);
+        }, 100);
       }
-    }, 500);
+    }, 300);
 
     return () => {
       clearInterval(timer);
@@ -69,8 +69,8 @@ const Greet = () => {
   };
 
   return (
-    <div className="absolute top-60 left-40 flex justify-between items-center w-[80%] ">
-      <div className="mr-20 w-[60%]">
+    <div className="absolute top-40 left-40 flex justify-between w-full overflow-hidden">
+      <div className="w-[40%] mt-20">
         <div className="text-[20px]">Hi, there! 👋</div>
         <div>
           I'm
@@ -87,20 +87,20 @@ const Greet = () => {
         </div>
         <div className="flex items-center">
           <button
-            className="text-[20px] ml-10 mt-4 font-semibold flex items-center px-2 py-1 rounded-lg bg-gradient-to-r from-cyan-500 to-teal-500 text-white"
+            className="text-[20px] ml-10 mt-4 font-semibold flex items-center px-2 py-1 rounded-lg bg-cyan-500 text-white border-2 border-cyan-500 hover:bg-transparent hover:text-cyan-500"
             onClick={handleDownload}
           >
             <FaCloudDownloadAlt size="25px" className="mr-2" /> Resume
           </button>
-          <button className="text-[20px] ml-10 mt-4 font-semibold flex items-center px-2 py-1 rounded-lg bg-transparent border-2 border-cyan-500  text-cyan-500">
+          <button className="text-[20px] ml-10 mt-4 font-semibold flex items-center px-2 py-1 rounded-lg bg-transparent border-2 border-cyan-500  text-cyan-500 hover:bg-cyan-500 hover:text-white">
             <Link to={"/contact"}>Contact Me</Link>
           </button>
         </div>
       </div>
-      <div className="w-[40%]">
-        <div className="w-[350px] h-[350px] relative">
+      <div className="">
+        <div className="">
           <img
-            className="w-80 h-80 rounded-full animation-image outer-shadow"
+            className="w-[1000px] h-[700px]"
             src={ideScreenImage}
             alt="avator"
           />

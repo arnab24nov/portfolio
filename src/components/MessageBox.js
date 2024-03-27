@@ -59,7 +59,7 @@ const MessageBox = () => {
         rows={4}
         onChange={handleFormDataChange}
       ></textarea>
-      <button className="text-[20px] font-semibold mx-auto flex items-center px-2 py-1 rounded-lg bg-gradient-to-r from-cyan-500 to-teal-500 text-white">
+      <button className="text-[20px] font-semibold mx-auto flex items-center px-2 py-1 rounded-lg border-2 border-transparent hover:border-cyan-500 bg-cyan-500 hover:bg-transparent text-white hover:text-cyan-500">
         Send <IoIosSend size="20px" className="ml-2" />
       </button>
     </form>

@@ -10,14 +10,14 @@ const Navbar = () => {
       <ToggleTheme />
       <ul className="flex justify-around items-center ml-4">
         <li
-          className={`px-4 border-b-2 hover:border-blue-500 rounded-md cursor-pointer ${
+          className={`px-4 border-b-2 hover:border-blue-500 rounded-md ${
             param.pathname === "/" ? "border-blue-500" : "border-transparent"
           }`}
         >
           <Link to={"/"}>Home</Link>
         </li>
         <li
-          className={`px-4 border-b-2 hover:border-blue-500 rounded-md cursor-pointer ${
+          className={`px-4 border-b-2 hover:border-blue-500 rounded-md ${
             param.pathname === "/about"
               ? "border-blue-500"
               : "border-transparent"
@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link to={"/about"}>About</Link>
         </li>
         <li
-          className={`px-4 border-b-2 hover:border-blue-500 rounded-md cursor-pointer ${
+          className={`px-4 border-b-2 hover:border-blue-500 rounded-md ${
             param.pathname === "/skill"
               ? "border-blue-500"
               : "border-transparent"
@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link to={"/skill"}>Skills</Link>
         </li>
         <li
-          className={`px-4 border-b-2 hover:border-blue-500 rounded-md cursor-pointer ${
+          className={`px-4 border-b-2 hover:border-blue-500 rounded-md ${
             param.pathname === "/project"
               ? "border-blue-500"
               : "border-transparent"
@@ -44,7 +44,7 @@ const Navbar = () => {
           <Link to={"/project"}>Projects</Link>
         </li>
         <li
-          className={`px-4 border-b-2 hover:border-blue-500 rounded-md cursor-pointer ${
+          className={`px-4 border-b-2 hover:border-blue-500 rounded-md ${
             param.pathname === "/contact"
               ? "border-blue-500"
               : "border-transparent"

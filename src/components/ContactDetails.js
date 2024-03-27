@@ -15,11 +15,13 @@ const ContactDetails = () => {
       </div>
       <div className="mb-4">
         <a
-          className="flex items-center "
+          className="flex items-center"
           href={`mailto:${CONTACT_DETAILS.email}`}
         >
           <AiOutlineMail size="20px" className="mr-10" />
-          <div className="hover:text-cyan-500">{CONTACT_DETAILS.email}</div>
+          <div className="hover:text-cyan-500 hover:scale-105">
+            {CONTACT_DETAILS.email}
+          </div>
         </a>
       </div>
       <div className="mb-4">
@@ -30,7 +32,9 @@ const ContactDetails = () => {
           target="_blank"
         >
           <FaLinkedin size="20px" className="mr-10" />
-          <div className="hover:text-cyan-500">{CONTACT_DETAILS.ldn}</div>
+          <div className="hover:text-cyan-500 hover:scale-105">
+            {CONTACT_DETAILS.ldn}
+          </div>
         </a>
       </div>
       <div className="mb-4">
@@ -41,7 +45,9 @@ const ContactDetails = () => {
           target="_blank"
         >
           <FaGithub size="20px" className="mr-10" />
-          <div className="hover:text-cyan-500">{CONTACT_DETAILS.ghub}</div>
+          <div className="hover:text-cyan-500 hover:scale-105">
+            {CONTACT_DETAILS.ghub}
+          </div>
         </a>
       </div>
       <div className="flex items-center mb-4">

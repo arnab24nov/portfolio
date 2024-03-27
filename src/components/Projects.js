@@ -22,7 +22,7 @@ const Projects = () => {
       <PageTitle title={"Projects"} />
       <div className="flex justify-center mt-10 mx-48">
         <div
-          className="text-[50px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text cursor-pointer"
+          className="text-[50px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
           onClick={handlePrevious}
         >
           &lt;
@@ -37,7 +37,7 @@ const Projects = () => {
           ))}
         </div>
         <div
-          className="text-[50px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text cursor-pointer"
+          className="text-[50px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
           onClick={handleNext}
         >
           &gt;

@@ -10,10 +10,7 @@ const ToggleTheme = () => {
 
   return (
     <div className="inline-block relative bg-cyan-500  rounded-xl w-13 h-6 px-1">
-      <button
-        className="cursor-pointer"
-        onClick={() => dispatch(toggleTheme())}
-      >
+      <button className="" onClick={() => dispatch(toggleTheme())}>
         <div className="flex justify-between items center bg-transparent w-12 h-6">
           <BsFillMoonFill size="18px" style={{ color: "#000" }} />
           <FaSun size="18px" style={{ color: "#fdffba" }} />
