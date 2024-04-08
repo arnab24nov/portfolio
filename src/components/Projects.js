@@ -20,24 +20,24 @@ const Projects = () => {
   return (
     <div className="absolute top-32 left-0 right-0 text-center">
       <PageTitle title={"Projects"} />
-      <div className="flex justify-center mt-10 mx-48">
+      <div className="flex justify-center mt-0 lg:mt-10 lg:mx-48">
         <div
-          className="text-[50px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
+          className="text-[50px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text hidden lg:block"
           onClick={handlePrevious}
         >
           &lt;
         </div>
-        <div className=" w-full px-10">
+        <div className=" w-full px-4 lg:px-10">
           {PROJECT_DETAILS.map((el, i) => (
             <ProjectCard
               key={el.name}
               projectDetails={el}
-              display={i === activeIndex ? "block" : "hidden"}
+              display={i === activeIndex ? "lg:block" : "lg:hidden"}
             />
           ))}
         </div>
         <div
-          className="text-[50px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
+          className="text-[50px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text hidden lg:block"
           onClick={handleNext}
         >
           &gt;

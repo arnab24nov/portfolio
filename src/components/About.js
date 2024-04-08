@@ -6,7 +6,9 @@ const About = () => {
   return (
     <div className=" absolute top-32 left-0 right-0 text-center">
       <PageTitle title={"About"} />
-      <div className=" mx-40 mb-20 leading-7 text-wrap">{ABOUT_ME}</div>
+      <div className="text-[18px] lg:mx-40 mb-20 leading-7 text-left mx-6">
+        {ABOUT_ME}
+      </div>
       <div className="flex justify-around items-center w-[50%] mx-auto">
         <div>
           <div className="w-20 h-20 border-2 border-cyan-500 rounded-full flex items-center justify-center text-[24px] font-bold mb-3 outer-shadow">

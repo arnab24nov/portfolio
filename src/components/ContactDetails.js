@@ -8,9 +8,9 @@ import { GrLocation } from "react-icons/gr";
 
 const ContactDetails = () => {
   return (
-    <div className="px-10">
+    <div className="px-10 text-[16px] text-left">
       <div className="flex items-center mb-4">
-        <LuPhone size="20px" className="mr-10" />
+        <LuPhone size="20px" className="mr-5 lg:mr-10 min-h-5 min-w-5" />
         {CONTACT_DETAILS.phone}
       </div>
       <div className="mb-4">
@@ -18,7 +18,10 @@ const ContactDetails = () => {
           className="flex items-center"
           href={`mailto:${CONTACT_DETAILS.email}`}
         >
-          <AiOutlineMail size="20px" className="mr-10" />
+          <AiOutlineMail
+            size="20px"
+            className="mr-5 lg:mr-10 min-h-5 min-w-5"
+          />
           <div className="hover:text-cyan-500 hover:scale-105">
             {CONTACT_DETAILS.email}
           </div>
@@ -31,7 +34,7 @@ const ContactDetails = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <FaLinkedin size="20px" className="mr-10" />
+          <FaLinkedin size="20px" className="mr-5 lg:mr-10 min-h-5 min-w-5" />
           <div className="hover:text-cyan-500 hover:scale-105">
             {CONTACT_DETAILS.ldn}
           </div>
@@ -44,14 +47,14 @@ const ContactDetails = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <FaGithub size="20px" className="mr-10" />
+          <FaGithub size="20px" className="mr-5 lg:mr-10 min-h-5 min-w-5" />
           <div className="hover:text-cyan-500 hover:scale-105">
             {CONTACT_DETAILS.ghub}
           </div>
         </a>
       </div>
       <div className="flex items-center mb-4">
-        <GrLocation size="20px" className="mr-10" />
+        <GrLocation size="20px" className="mr-5 lg:mr-10 min-h-5 min-w-5" />
         {CONTACT_DETAILS.addr}
       </div>
     </div>

@@ -69,25 +69,25 @@ const Greet = () => {
   };
 
   return (
-    <div className="absolute top-40 left-40 flex justify-between w-full overflow-hidden">
-      <div className="w-[40%] mt-20">
+    <div className="absolute top-32 lg:top-40 left-10 lg:left-40 lg:flex justify-start overflow-hidden lg:h-full lg:overflow-y-hidden">
+      <div className="w-screen mt-20 lg:w-2/5 overflow-hidden">
         <div className="text-[20px]">Hi, there! 👋</div>
-        <div>
+        <div className="">
           I'm
-          <span className="text-[40px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text pl-2">
+          <span className="text-[30px] lg:text-[40px]  font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text pl-2">
             Arnab Khanrah
           </span>
         </div>
-        <div className="text-[24px] font-semibold">
+        <div className="text-[24px] font-semibold flex flex-col lg:flex-row">
           And I'm a{" "}
-          <span className="bg-gradient-to-r from-cyan-500 to-teal-500 text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-cyan-500 to-teal-500 text-transparent bg-clip-text lg:ml-2">
             {role}
             <span style={{ opacity: showCursor ? 1 : 0 }}>|</span>
           </span>
         </div>
-        <div className="flex items-center">
+        <div className="lg:mt-5 flex items-center">
           <button
-            className="text-[20px] ml-10 mt-4 font-semibold flex items-center px-2 py-1 rounded-lg bg-cyan-500 text-white border-2 border-cyan-500 hover:bg-transparent hover:text-cyan-500"
+            className="text-[20px] lg:ml-10 mt-4 font-semibold flex items-center px-2 py-1 rounded-lg bg-cyan-500 text-white border-2 border-cyan-500 hover:bg-transparent hover:text-cyan-500"
             onClick={handleDownload}
           >
             <FaCloudDownloadAlt size="25px" className="mr-2" /> Resume
@@ -97,14 +97,12 @@ const Greet = () => {
           </button>
         </div>
       </div>
-      <div className="">
-        <div className="">
-          <img
-            className="w-[1000px] h-[700px]"
-            src={ideScreenImage}
-            alt="avator"
-          />
-        </div>
+      <div className="hidden lg:block lg:w-3/5 pl-5">
+        <img
+          className="w-[1000px] h-[700px]"
+          src={ideScreenImage}
+          alt="avator"
+        />
       </div>
     </div>
   );

@@ -22,9 +22,9 @@ const MessageBox = () => {
   };
   return (
     <form
-      className={`max-w-md mx-auto shadow-md rounded px-8 py-6 ${
-        selector ? "bg-gray-700" : "bg-white "
-      }`}
+      className={`w-[90vw] my-10 lg:my-0 lg:max-w-md lg:mx-auto ${
+        selector ? "bg-gray-700" : "bg-white"
+      } shadow-md rounded px-8 py-6 `}
       onSubmit={handleSubmit}
     >
       <input
