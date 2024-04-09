@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { toggleMenuStat } from "../utils/mobileMenuSlice";
 
 const NavbarMobile = () => {
-  console.log("re-rendered...");
   const param = useLocation();
   const dispatch = useDispatch();
   const selector = useSelector((store) => store.theme.darkMode);
