@@ -38,7 +38,7 @@ const Greet = () => {
           }
         }, 100);
       }
-    }, 300);
+    }, 200);
 
     return () => {
       clearInterval(timer);
@@ -69,7 +69,7 @@ const Greet = () => {
   };
 
   return (
-    <div className="absolute top-32 lg:top-40 left-10 lg:left-40 lg:flex justify-start overflow-hidden lg:h-full lg:overflow-y-hidden">
+    <div className="absolute top-32 lg:top-40 left-0 text-center lg:text-left lg:left-40 lg:flex justify-start overflow-hidden lg:h-full lg:overflow-y-hidden">
       <div className="w-screen mt-20 lg:w-2/5 overflow-hidden">
         <div className="text-[20px]">Hi, there! 👋</div>
         <div className="">
@@ -85,7 +85,7 @@ const Greet = () => {
             <span style={{ opacity: showCursor ? 1 : 0 }}>|</span>
           </span>
         </div>
-        <div className="lg:mt-5 flex items-center">
+        <div className="mt-3 lg:mt-5 flex justify-center lg:justify-start items-center">
           <button
             className="text-[20px] lg:ml-10 mt-4 font-semibold flex items-center px-2 py-1 rounded-lg bg-cyan-500 text-white border-2 border-cyan-500 hover:bg-transparent hover:text-cyan-500"
             onClick={handleDownload}

@@ -73,7 +73,7 @@ function App() {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-[100%] h-full overflow-y-auto lg:overflow-hidden ${
+      className={`fixed top-0 left-0 w-[100%] h-full overflow-y-auto overflow-x-hidden lg:overflow-hidden ${
         selector ? " bg-gray-900 text-blue-500" : "bg-slate-200 text-slate-600"
       }`}
     >
