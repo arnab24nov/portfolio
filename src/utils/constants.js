@@ -38,7 +38,7 @@ export const PROJECT_DETAILS = [
 ];
 
 export const ABOUT_ME =
-  "Creative, self-starting, and ambitious Front-End Developer with 2 years of experience, in application development, for both Responsive web app and desktop applications in fast-paced, collaborative environments. Highly Experienced in HTML/CSS/JavaScript/Electron.js and working knowledge of JQuery, React, Redux and node.js. Well-versed in Scrum and Agile.";
+  "Creative, self-starting, and ambitious Front-End Developer with 2 years of experience, in application development, for both Responsive web app and desktop applications in fast-paced, collaborative environments. Experienced in HTML, CSS, JavaScript, jQuery, Electron.js, Bootstrap and working knowledge of React, Redux, TypeScript, TailwindCSS and node.js. Well-versed in Scrum and Agile.";
 
 export const CONTACT_DETAILS = {
   phone: 8001454476,

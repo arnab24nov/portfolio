@@ -11,7 +11,8 @@ const Skills = () => {
           <SkillProgressBar name="HTML" level={70} />
           <SkillProgressBar name="CSS" level={70} />
           <SkillProgressBar name="JavaScript" level={80} />
-          <SkillProgressBar name="Bootstrap" level={75} />
+          <SkillProgressBar name="Bootstrap" level={70} />
+          <SkillProgressBar name="TypeScript" level={70} />
         </div>
         <div className="w-[80vw] lg:w-[500px]">
           <SkillProgressBar name="jQuery" level={70} />
