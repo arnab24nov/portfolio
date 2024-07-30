@@ -56,12 +56,12 @@ const Greet = () => {
 
   const handleDownload = () => {
     const fileUrl =
-      "https://drive.google.com/file/d/1f9tXoMc7k5bTDnFM9INeHuV7K-JcAIAr/view?usp=sharing";
+      "https://drive.google.com/file/d/1cD6yYifq5Lp8gnCDiF4pJ7uI6M_1dUVZ/view?usp=sharing";
 
     const a = document.createElement("a");
     a.href = fileUrl;
     a.target = "_blank";
-    a.download = "Arnab_Khanrah_resume.pdf";
+    a.download = "Arnab_Khanrah_latest_resume.pdf";
     document.body.appendChild(a);
     a.click();
 
