@@ -7,5 +7,6 @@ const appStore = configureStore({
     theme: themeReducer,
     menu: menuReducer,
   },
+  devTools: process.env.NODE_ENV !== "production",
 });
 export default appStore;
